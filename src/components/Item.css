@@ -1,0 +1,78 @@
+/* Styling for the Item component */
+
+/* Container styles */
+.item-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Form styles */
+  .form-container {
+    margin-bottom: 20px;
+    display:flex;
+  }
+  
+  /* Input styles */
+  .input-field {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    height:2.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* List styles */
+  .list-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* List item styles */
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Text styles for the list item */
+  .list-text {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  /* Button styles for Remove and Toggle */
+  .remove-button,
+  .toggle-button {
+    padding: 5px 10px;
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Styling for the "Done" state */
+  .done-text {
+    text-decoration: line-through;
+    color: #777;
+  }
+  

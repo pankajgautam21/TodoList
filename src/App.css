@@ -1,0 +1,33 @@
+/* Reset some default browser styles */
+body, h1, ul, li, button, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set a background color for the entire app */
+  body {
+    background-color: #f5f5f5;
+    background-image: url(https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Center the main content vertically and horizontally */
+  .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Apply some basic styling to the main content area */
+  .content-container {
+    text-align: center;
+    max-width: auto;
+    padding: 20px;
+  }
+  

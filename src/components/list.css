@@ -1,0 +1,40 @@
+/* Styling for the List component */
+
+/* List item styles */
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Text styles for the list item */
+  .list-text {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  /* Button styles for Remove and Toggle */
+  .remove-button,
+  .toggle-button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .remove-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .toggle-button:hover {
+    background-color: #009900;
+  }
+  /* Styling for the "Done" state */
+  .done-text {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
